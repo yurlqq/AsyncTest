@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9F190007296665FA00E23362 /* AsyncTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F190006296665FA00E23362 /* AsyncTestUITests.swift */; };
 		9F190009296665FA00E23362 /* AsyncTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F190008296665FA00E23362 /* AsyncTestUITestsLaunchTests.swift */; };
+		9F1900162966663E00E23362 /* DummyMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1900152966663E00E23362 /* DummyMaker.swift */; };
 		9F19FFE6296665F900E23362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19FFE5296665F900E23362 /* AppDelegate.swift */; };
 		9F19FFE8296665F900E23362 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19FFE7296665F900E23362 /* SceneDelegate.swift */; };
 		9F19FFEA296665F900E23362 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19FFE9296665F900E23362 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 		9F190002296665FA00E23362 /* AsyncTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F190006296665FA00E23362 /* AsyncTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTestUITests.swift; sourceTree = "<group>"; };
 		9F190008296665FA00E23362 /* AsyncTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F1900152966663E00E23362 /* DummyMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyMaker.swift; sourceTree = "<group>"; };
 		9F19FFE2296665F900E23362 /* AsyncTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F19FFE5296665F900E23362 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F19FFE7296665F900E23362 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				9F19FFE5296665F900E23362 /* AppDelegate.swift */,
 				9F19FFE7296665F900E23362 /* SceneDelegate.swift */,
 				9F19FFE9296665F900E23362 /* ViewController.swift */,
+				9F1900152966663E00E23362 /* DummyMaker.swift */,
 				9F19FFEB296665F900E23362 /* Main.storyboard */,
 				9F19FFEE296665FA00E23362 /* Assets.xcassets */,
 				9F19FFF0296665FA00E23362 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				9F19FFEA296665F900E23362 /* ViewController.swift in Sources */,
 				9F19FFE6296665F900E23362 /* AppDelegate.swift in Sources */,
 				9F19FFE8296665F900E23362 /* SceneDelegate.swift in Sources */,
+				9F1900162966663E00E23362 /* DummyMaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
