@@ -2,7 +2,7 @@ import Foundation
 
 class DummyMaker {
     let encoder = JSONEncoder()
-    let path = "/Users/inseopark/JsonServer/db.json"
+    let path = "/Users/inseopark/JsonServer/db.json"    // json-server가 지켜볼 파일
     let languages = ["C++", "Swift", "Java", "Python", "Kotlin"]
     let names = ["Jung-Hwan", "Yun-Su", "Yu-ri", "Robert", "Tom", "Paul", "Oliver", "Emily", "Emma", "Jessica", "So-Yeon", "Julia", "John"]
     
@@ -33,4 +33,20 @@ class DummyMaker {
             }
         }
     }
+}
+
+
+struct Users: Codable {
+    var users: [User]
+    
+    init() {
+        self.users = [User]()
+    }
+}
+
+struct User: Codable, Identifiable {
+    var id: Int
+    var name: String
+    var phone: String
+    var usingLanguage: String
 }

@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         }
         
         DispatchQueue.global().async {
-            let url = URL(string: "http://localhost:3000/users")!
+            let url = URL(string: "http://localhost:3000/users")! // json-server 주소
             var data = try? Data(contentsOf: url)
             
             if data == nil {
@@ -53,19 +53,4 @@ class ViewController: UIViewController {
         }
     }
     
-}
-
-struct Users: Codable {
-    var users: [User]
-    
-    init() {
-        self.users = [User]()
-    }
-}
-
-struct User: Codable, Identifiable {
-    var id: Int
-    var name: String
-    var phone: String
-    var usingLanguage: String
 }
