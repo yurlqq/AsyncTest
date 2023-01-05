@@ -2,7 +2,7 @@ import Foundation
 
 class DummyMaker {
     let encoder = JSONEncoder()
-    let path = "/Users/inseopark/JsonServer/db.json"    // json-server가 지켜볼 파일
+    let path = "~/JsonServer/db.json"    // json-server가 지켜볼 파일
     let languages = ["C++", "Swift", "Java", "Python", "Kotlin"]
     let names = ["Jung-Hwan", "Yun-Su", "Yu-ri", "Robert", "Tom", "Paul", "Oliver", "Emily", "Emma", "Jessica", "So-Yeon", "Julia", "John"]
     
