@@ -43,7 +43,9 @@ class ViewController: UIViewController {
             
             guard data != nil, let json = String (data: data!, encoding: .utf8)
             else {
-                self.textView.text = "disconnected"
+                DispatchQueue.main.async {
+                    self.textView.text = "connection error"
+                }
                 return
             }
             
